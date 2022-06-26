@@ -50,7 +50,6 @@ static void FlashMan_PEmodeToReadModeDF(void);
 * @brief	This function initializes the hardware for current module. It is called by System
 *			Initialization module. It configures the Data Flash memory for being read.
 * @param	none
-* @return	none
 */
 void FlashManInit(void)
 {		
