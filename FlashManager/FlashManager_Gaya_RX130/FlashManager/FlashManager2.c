@@ -22,9 +22,9 @@
 ***************************************************************************************************/
 
 #include "../../../types.h"
-#include "../../../Ssl/ResourceManager/SysteooomIntegrityTest/SystemIntegrity.h"
+#include "../../../Ssl/ResourceManager/SystemIntegrityTest/SystemIntegrity.h"
 #include "../../../Ssl/ResourceManager/Interrupts/Interrupts.h"
-#include "FlashManager.h"
+#include "../../../Ssl/ResourceManager/Scheduling/Scheduling.h"
 
 //#include "..\..\..\Ssl\ResourceManager\IoSystem\IoSystemPins.h"
 
@@ -50,6 +50,7 @@ static void FlashMan_PEmodeToReadModeDF(void);
 * @brief	This function initializes the hardware for current module. It is called by System
 *			Initialization module. It configures the Data Flash memory for being read.
 * @param	none
+* @return	none
 */
 void FlashManInit(void)
 {		
