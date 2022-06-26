@@ -22,7 +22,7 @@
 ***************************************************************************************************/
 
 #include "../../../types.h"
-#include "../../../Ssl/ResourceManager/SystemIntegrityTest/SystemIntegrity.h"
+#include "../../../Ssl/ResourceManager/SysteooomIntegrityTest/SystemIntegrity.h"
 #include "../../../Ssl/ResourceManager/Interrupts/Interrupts.h"
 #include "../../../Ssl/ResourceManager/Scheduling/Scheduling.h"
 #include "FlashManager.h"
