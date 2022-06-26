@@ -29,7 +29,7 @@
 * Defines
 ***************************************************************************************************/
 #define T_DSTOP  30
-#define T_MS  30
+#define T_MS  300
 
 
 //info about all area
@@ -37,7 +37,7 @@
 #define FLASHMAN_BLOCK_NUM	8
 
 //addresses of each block (read mode)
-#define FLASHMAN_BLOCK_ADDR_RD	0x00100000
+#define FLASHMAN_BLOCK_ADDR_RD	0x05500000
 #define	FLASHMAN_BLOCK_0_RD		( FLASHMAN_BLOCK_ADDR_RD )
 #define	FLASHMAN_BLOCK_1_RD		( FLASHMAN_BLOCK_0_RD + FLASHMAN_BLOCK_SIZE )
 #define	FLASHMAN_BLOCK_2_RD		( FLASHMAN_BLOCK_1_RD + FLASHMAN_BLOCK_SIZE )
